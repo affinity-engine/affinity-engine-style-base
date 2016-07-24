@@ -22,15 +22,12 @@
     @extend .ae-input;
   }
 
-  .ae-menu-close {
-    position: absolute;
-    width: inherit !important;
-    top: $ae-menu-padding;
-    right: $ae-menu-padding;
-    padding: 0 $ae-menu-padding;
+  .ae-menu-option-shrink {
+    flex-grow: 0;
 
-    .ember-flex-menu-option-button-text {
-      @extend .ae-sr-only;
+    .ember-flex-menu-option-type {
+      padding-left: $ae-menu-option-shrink-padding-sides;
+      padding-right: $ae-menu-option-shrink-padding-sides;
     }
   }
 }
