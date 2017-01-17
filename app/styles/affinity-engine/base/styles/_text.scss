@@ -1,4 +1,6 @@
 .ae-text {
+  @extend .ae-clickable;
+
   z-index: 100;
   position: absolute;
 }

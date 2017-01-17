@@ -1,4 +1,6 @@
 .ae-menu {
+  @extend .ae-clickable;
+
   z-index: 1000;
 
   position: absolute;
