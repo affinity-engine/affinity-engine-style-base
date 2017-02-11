@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-base",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Base styles for the Affinity Engine",
   "directories": {
     "doc": "doc",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "affinity-engine": "git+https://github.com/affinity-engine/affinity-engine.git",
+    "affinity-engine": "^0.1.0",
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
     "ember-cli": "2.6.2",
