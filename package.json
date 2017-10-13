@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-base",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Base styles for the Affinity Engine",
   "keywords": [
     "ember-addon",

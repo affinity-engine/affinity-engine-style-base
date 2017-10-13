@@ -20,8 +20,24 @@
     text-align: $ae-menu-child-text-align;
   }
 
+  .ember-flex-menu-option-input-container {
+    position: relative;
+  }
+
   .ember-flex-menu-option-input {
     @extend .ae-input;
+
+    display: block;
+    height: 100%;
+  }
+
+  .ember-flex-menu-option-input-accept {
+    @extend .ae-input-accept;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
   }
 
   .ae-menu-option-shrink {
