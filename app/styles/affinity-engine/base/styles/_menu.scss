@@ -21,23 +21,20 @@
   }
 
   .ember-flex-menu-option-input-container {
-    position: relative;
+    display: flex;
   }
 
   .ember-flex-menu-option-input {
     @extend .ae-input;
 
-    display: block;
-    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .ember-flex-menu-option-input-accept {
     @extend .ae-input-accept;
 
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
+    cursor: pointer;
   }
 
   .ae-menu-option-shrink {
