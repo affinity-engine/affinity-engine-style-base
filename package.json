@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-base",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Base styles for the Affinity Engine",
   "keywords": [
     "ember-addon",
@@ -49,6 +49,7 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
+    "demoURL": "http://www.affinityengine.org/#/api/styles",
     "after": [
       "affinity-engine"
     ]
